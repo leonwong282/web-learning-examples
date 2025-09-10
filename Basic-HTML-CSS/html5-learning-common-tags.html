@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Common Tags Example</title>
+</head>
+<body>
+	<h1>HTML Common Tags Example</h1>
+	<h2>Headings</h2>
+	<h3>This is an H3 heading</h3>
+	<h4>This is an H4 heading</h4>
+	<h5>This is an H5 heading</h5>
+	<h6>This is an H6 heading</h6>
+
+	<h2>Paragraphs</h2>
+	<p>This is a paragraph. HTML paragraphs are defined with the &lt;p&gt; tag.</p>
+	<p>Another paragraph for demonstration.</p>
+
+	<h2>Links</h2>
+	<a href="https://www.example.com" target="_blank">Visit Example.com</a>
+
+	<h2>Anchor Tag &lt;a&gt;</h2>
+	<p>The <code>&lt;a&gt;</code> tag defines a hyperlink, which is used to link from one page to another.</p>
+	<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">MDN Web Docs: &lt;a&gt; element</a>
+	<br>
+	<a href="#section-title">Jump to Section Title in this page</a>
+	<br>
+	<a href="mailto:someone@example.com">Send Email</a>
+
+	<h2>Images</h2>
+	<img src="https://via.placeholder.com/150" alt="Placeholder Image" title="A Placeholder Image">
+
+	<h2>Lists</h2>
+	<h3>Unordered List</h3>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+	</ul>
+	<h3>Ordered List</h3>
+	<ol>
+		<li>First</li>
+		<li>Second</li>
+		<li>Third</li>
+	</ol>
+
+	<h2>Table</h2>
+	<table border="1">
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Alice</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			<td>Bob</td>
+			<td>30</td>
+		</tr>
+	</table>
+
+	<h2>Input Types</h2>
+	<form>
+		<label for="text-input">Text:</label>
+		<input type="text" id="text-input" name="text-input">
+		<br>
+		<label for="password-input">Password:</label>
+		<input type="password" id="password-input" name="password-input">
+		<br>
+		<label>Radio:</label>
+		<input type="radio" id="radio1" name="radio-group" value="option1">
+		<label for="radio1">Option 1</label>
+		<input type="radio" id="radio2" name="radio-group" value="option2">
+		<label for="radio2">Option 2</label>
+		<br>
+		<label>Checkbox:</label>
+		<input type="checkbox" id="check1" name="check-group" value="check1">
+		<label for="check1">Check 1</label>
+		<input type="checkbox" id="check2" name="check-group" value="check2">
+		<label for="check2">Check 2</label>
+		<br>
+		<label for="file-input">File:</label>
+		<input type="file" id="file-input" name="file-input">
+		<br>
+		<button type="submit">Submit</button>
+	</form>
+
+	<h2>Textarea</h2>
+	<form>
+		<label for="textarea-example">Your message:</label>
+		<br>
+		<textarea id="textarea-example" name="textarea-example" rows="4" cols="40"></textarea>
+		<br>
+		<button type="submit">Send</button>
+	</form>
+
+	<h2>Select Dropdown</h2>
+	<form>
+		<label for="select-example">Choose an option:</label>
+		<select id="select-example" name="select-example">
+			<option value="option1">Option 1</option>
+			<option value="option2">Option 2</option>
+			<option value="option3">Option 3</option>
+		</select>
+		<br>
+		<button type="submit">Select</button>
+	</form>
+
+	<h2>Other Tags</h2>
+	<strong>This text is strong.</strong><br>
+	<em>This text is emphasized.</em><br>
+	<mark>This text is marked.</mark><br>
+	<code>console.log('Hello, world!');</code>
+
+	<h2>Horizontal Rule</h2>
+	<hr>
+
+	<h2>Audio</h2>
+  <!-- In h5, if the key and value of the attribute are the same, the value can be omitted. -->
+	<audio controls>
+		<source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+
+	<h2>Video</h2>
+	<video width="320" height="240" controls  muted loop>
+		<source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+
+	<h2>Div and Span</h2>
+	<div style="background-color: #f0f0f0; padding: 10px;">
+		This is a <span style="color: blue;">span</span> inside a div.
+	</div>
+
+	<h2>Semantic Tags</h2>
+	<header style="background: #eee; padding: 10px;">
+		<h1>Header Section</h1>
+	</header>
+	<nav style="background: #ddd; padding: 10px;">
+		<a href="#">Home</a> |
+		<a href="#">About</a> |
+		<a href="#">Contact</a>
+	</nav>
+	<section style="background: #f9f9f9; padding: 10px;">
+		<h2>Section Title</h2>
+		<article style="background: #fff; padding: 10px; margin-bottom: 10px;">
+			<h3>Article Title</h3>
+			<p>This is an article inside a section.</p>
+		</article>
+	</section>
+	<aside style="background: #efefef; padding: 10px;">
+		<h4>Aside</h4>
+		<p>This is some additional information.</p>
+	</aside>
+	<footer style="background: #eee; padding: 10px;">
+		<p>Footer content goes here.</p>
+	</footer>
+</body>
+</html>
